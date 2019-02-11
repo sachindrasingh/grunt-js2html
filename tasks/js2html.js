@@ -1,6 +1,6 @@
 /*
  * grunt-js2html
- * https://github.com/sacsingh1/js2html
+ * https://github.com/sachindrasingh/grunt-js2html
  *
  * Copyright (c) 2019 Sachindra Singh
  * Licensed under the MIT license.
@@ -38,5 +38,9 @@ module.exports = function(grunt) {
             // console.log("\n\n+++", JSON.stringify(f.src), "\n\n" + JSON.stringify(f));
         });
     });
+
+    function validateContent(content) {
+        return true;
+    }
 
 };

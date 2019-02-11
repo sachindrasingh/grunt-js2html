@@ -33,7 +33,9 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin", "js2html", "grunt-js2html"
+    "gruntplugin",
+    "js2html",
+    "grunt-js2html"
   ],
   "dependencies": {
     "npm": "^6.7.0"

@@ -9,7 +9,7 @@
 'use strict';
 
 module.exports = function(grunt) {
-
+    var vm = require('vm');
     // Please see the Grunt documentation for more information regarding task
     // creation: http://gruntjs.com/creating-tasks
 
@@ -24,6 +24,9 @@ module.exports = function(grunt) {
             f.src.forEach(function(filePath) {
                 console.log("possessing file", filePath);
                 var content = grunt.file.read(filePath);
+                if(!validateContent(content)){
+                    return;
+                }
                 var htmlContent = content.replace(/\\n"[ ]{1,1000}\+/gm, '');
                 htmlContent = htmlContent.replace(/\\"/gm, '"');
                 htmlContent = htmlContent.replace(/\n[ ]{0,1000}"/gm, '');
@@ -35,12 +38,18 @@ module.exports = function(grunt) {
                 grunt.file.write(filePath + ".html", htmlContent);
                 grunt.log.writeln('File "' + filePath + '.html" created.');
             })
-            // console.log("\n\n+++", JSON.stringify(f.src), "\n\n" + JSON.stringify(f));
         });
     });
 
     function validateContent(content) {
-        return true;
+        var script;
+        try {
+            script = new vm.Script(content);
+            return true;
+         } catch (error){
+            grunt.log.writeln(error);
+            return false;
+         }
     }
 
 };

@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         options: {
         },
         files: {
-          'src': ['../../Kia Support/EU/eu-trunk/eutSpec/apps-ie/src/main/content/jcr_root/etc/designs/eutSpec/clientlib/ie/template/**/*.tpl.js']
+          'src': ['test/*.js']
         }
     },
 

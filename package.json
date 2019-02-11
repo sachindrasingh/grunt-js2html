@@ -2,22 +2,22 @@
   "name": "grunt-js2html",
   "description": "The best Grunt plugin ever.",
   "version": "0.1.0",
-  "homepage": "https://github.com/sacsingh1/js2html",
+  "homepage": "https://github.com/sachindrasingh/grunt-js2html",
   "author": {
     "name": "Sachindra Singh",
     "email": "sachindra.singh462@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sacsingh1/js2html.git"
+    "url": "git://github.com/sachindrasingh/grunt-js2html.git"
   },
   "bugs": {
-    "url": "https://github.com/sacsingh1/js2html/issues"
+    "url": "https://github.com/sachindrasingh/grunt-js2html/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/sacsingh1/js2html/blob/master/LICENSE-MIT"
+      "url": "https://github.com/sachindrasingh/grunt-js2html/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -33,7 +33,7 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin", "js2html", "grunt-js2html"
   ],
   "dependencies": {
     "npm": "^6.7.0"

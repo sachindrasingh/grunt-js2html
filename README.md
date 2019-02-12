@@ -1,6 +1,6 @@
 # grunt-js2html
 
-> Grunt Plugin for Convert Angular JS Template to HTML Source.
+> Grunt Plugin for Convert Angular JS Templates to HTML Source.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`

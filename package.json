@@ -38,6 +38,7 @@
     "grunt-js2html"
   ],
   "dependencies": {
-    "npm": "^6.7.0"
+    "npm": "^6.7.0",
+    "pretty": "^2.0.0"
   }
 }

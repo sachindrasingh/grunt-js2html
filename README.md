@@ -59,7 +59,7 @@ grunt.initConfig({
   js2html: {
     options: {},
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      src: 'test-files/*.js'
     },
   },
 });
@@ -76,7 +76,7 @@ grunt.initConfig({
       beautify: true,
     },
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      src: 'test-files/*.js'
     },
   },
 });

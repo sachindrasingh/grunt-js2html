@@ -37,17 +37,17 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
-Type: `String`
-Default value: `',  '`
+#### options.angularModule
+Type: `Boolean `
+Default value: `false`
 
-A string value that is used to do something with whatever.
+A boolean value that is used to remove `angular.module` from `tpl.js`.
 
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
+#### options.beautify
+Type: `Boolean`
+Default value: `true`
 
-A string value that is used to do something else with whatever else.
+A boolean value that is used to beautify HTML source file.
 
 ### Usage Examples
 
@@ -72,8 +72,8 @@ In this example, custom options are used to do something else with whatever else
 grunt.initConfig({
   js2html: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      angularModule: true,
+      beautify: true,
     },
     files: {
       'dest/default_options': ['src/testing', 'src/123'],

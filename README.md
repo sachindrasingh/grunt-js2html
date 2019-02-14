@@ -86,9 +86,11 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-version 0.1.0 - Basic plugin to convert `*.tpl.js` files into HTML source. Reverse of [grunt-html2js](https://www.npmjs.com/package/grunt-html2js).
-version 0.1.1 - JS file Content validation added for `*.tpl.js`.
-version 0.1.2 - angularModule and beautify options added.
+0.1.0 - Basic plugin to convert `*.tpl.js` files into HTML source. Reverse of [grunt-html2js](https://www.npmjs.com/package/grunt-html2js).
+
+0.1.1 - JS file Content validation added for `*.tpl.js`.
+
+0.1.2 - angularModule and beautify options added.
 
 ## Author
 

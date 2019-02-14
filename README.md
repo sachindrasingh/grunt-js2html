@@ -90,7 +90,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 0.1.1 - JS file Content validation added for `*.tpl.js`.
 
-0.1.2 - angularModule and beautify options added.
+0.1.3 - angularModule and beautify options added.
 
 ## Author
 

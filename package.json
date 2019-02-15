@@ -1,6 +1,6 @@
 {
   "name": "grunt-js2html",
-  "description": "The best Grunt plugin ever.",
+  "description": "Grunt Plugin for Convert Angular JS Templates to HTML Source.",
   "version": "0.1.3",
   "homepage": "https://github.com/sachindrasingh/grunt-js2html",
   "author": {

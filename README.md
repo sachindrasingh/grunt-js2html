@@ -1,14 +1,19 @@
 # grunt-js2html
 
-> Grunt Plugin for Convert Angular JS Templates to HTML Source.
+Grunt Plugin for Convert Angular JS Templates to HTML Source.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
+Install using `npm`
 ```shell
 npm install grunt-js2html --save-dev
+```
+Install using `yarn`
+```shell
+yarn add grunt-js2html
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
@@ -64,6 +69,7 @@ grunt.initConfig({
   },
 });
 ```
+> This simplest configuration will create HTML folder in your src path, and write the HTML source for the all `tpl.js` to `test-files/html/*.html`: 
 
 #### Custom Options
 In this example, custom options are used to convert JS Templates files into source HTML which remove `angular.module` and html source will be formatted.
